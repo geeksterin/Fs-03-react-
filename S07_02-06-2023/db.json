@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "id": 2,
+      "name": "Rajiv Patel",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "Sneha Jaiswal",
+      "gender": "female"
+    },
+    {
+      "id": 4,
+      "name": "Ayushi Verma",
+      "gender": "female"
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "name": "Zoya Khan",
+      "gender": "female",
+      "id": 6
+    },
+    {
+      "name": "Geekster",
+      "gender": "male",
+      "id": 9
+    },
+    {
+      "name": "Neha Sharma",
+      "gender": "female",
+      "id": 10
+    },
+    {
+      "name": "",
+      "gender": "",
+      "id": 11
+    }
+  ]
+}

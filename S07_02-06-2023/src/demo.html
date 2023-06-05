@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      //<div> <h2> React JS </h2></div>
+      let divElement = React.createElement(
+        "div",
+        null,
+        React.createElement("h2", null, "React JS")
+      );
+      ReactDOM.render(divElement, document.getElementById("root"));
+    </script>
+
+    <!-- <script>
+      //create h2 using React
+      let h2ReactElement = React.createElement(
+        "h2",
+        { id: "heading", class: "c1" },
+        "Welcome to React With Kabir"
+      );
+      //   <h2 id="heading" class="c1"  >  Welcome to React  </h2>
+
+      ReactDOM.render(h2ReactElement, document.getElementById("root"));
+    </script> -->
+  </body>
+</html>

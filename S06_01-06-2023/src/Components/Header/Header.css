@@ -1,0 +1,8 @@
+.header {
+  color: red;
+}
+#headerComp {
+  background-color: lightcoral;
+  padding: 20px;
+  margin: 10px;
+}
