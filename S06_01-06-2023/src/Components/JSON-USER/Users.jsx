@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Users.css";
 import { sendUserDetails, getUsersData, deleteUserData } from "../../API/Users";
 
@@ -6,6 +6,14 @@ function Users(props) {
   const [user, setUser] = useState("");
   const [gender, setGender] = useState("");
   const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    getUsersData(setUsers);
+  }, []);
+
+  useEffect(() => {
+    console.log("useEffect called");
+  }, []);
 
   const addUserData = () => {
     console.log(user, gender);
@@ -57,7 +65,7 @@ function Users(props) {
 
       <button onClick={addUserData}>Add User</button>
 
-      <button onClick={getUsers}>Get Users</button>
+      {/* <button onClick={getUsers}>Get Users</button> */}
 
       <div>
         {users.length > 0 && (

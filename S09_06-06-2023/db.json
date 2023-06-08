@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Rajiv Patel",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "Sneha Jaiswal",
+      "gender": "female"
+    },
+    {
+      "id": 3,
+      "name": "Ayushi Verma",
+      "gender": "female"
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "name": "Zoya Khan",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "name": "Geekster",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "Neha Sharma",
+      "gender": "female",
+      "id": 7
+    },
+    {
+      "name": "",
+      "gender": "",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Rajiv Patel",
+      "gender": "male"
+    },
+    {
+      "id": 10,
+      "name": "Sneha Jaiswal",
+      "gender": "female"
+    },
+    {
+      "id": 11,
+      "name": "Ayushi Verma",
+      "gender": "female"
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 12
+    },
+    {
+      "name": "Zoya Khan",
+      "gender": "female",
+      "id": 13
+    },
+    {
+      "name": "Geekster",
+      "gender": "male",
+      "id": 14
+    },
+    {
+      "name": "Neha Sharma",
+      "gender": "female",
+      "id": 15
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 16
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 17
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 18
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 19
+    },
+    {
+      "name": "Riya Singh",
+      "gender": "female",
+      "id": 20
+    }
+  ]
+}
