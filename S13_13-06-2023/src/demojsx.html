@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <script type="text/babel">
+      //   const h2Ref = <h2> Welcome to React With JSX </h2>; // React Element
+
+      const div = (
+        <div>
+          <h2>Babel is Compiler</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sed
+            repudiandae et dignissimos porro quae ea repellendus, hic debitis,
+            voluptas, atque ipsum? Earum fugiat minima officiis repellat quas
+            eligendi mollitia sunt at laudantium ipsum accusantium sint,
+            suscipit repellendus possimus, impedit inventore iste necessitatibus
+            excepturi consequuntur sed ut! Animi, nihil enim.Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Esse sed repudiandae et
+            dignissimos porro quae ea repellendus, hic debitis, voluptas, atque
+            ipsum? Earum fugiat minima officiis repellat quas eligendi mollitia
+            sunt at laudantium ipsum accusantium sint, suscipit repellendus
+            possimus, impedit inventore iste necessitatibus excepturi
+            consequuntur sed ut! Animi, nihil enim.Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Esse sed repudiandae et dignissimos
+            porro quae ea repellendus, hic debitis, voluptas, atque ipsum? Earum
+            fugiat minima officiis repellat quas eligendi mollitia sunt at
+            laudantium ipsum accusantium sint, suscipit repellendus possimus,
+            impedit inventore iste necessitatibus excepturi consequuntur sed ut!
+            Animi, nihil enim.
+          </p>
+        </div>
+      );
+      ReactDOM.render(div, document.getElementById("container"));
+    </script>
+  </body>
+</html>

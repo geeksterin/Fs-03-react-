@@ -1,0 +1,25 @@
+.nav {
+  background-color: black;
+  color: green;
+  padding: 18px;
+  display: flex;
+}
+.title h2 {
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.title {
+  width: 40%;
+}
+.menu {
+  width: 60%;
+}
+.flexC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
