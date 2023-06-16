@@ -1,0 +1,20 @@
+.productsContainer {
+  width: 1000px;
+  box-shadow: 0 0 10px black;
+
+  margin: 70px auto;
+  height: 400px;
+  display: flex;
+}
+
+.productCategories {
+  background-color: black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.categoryComponent {
+  width: 70%;
+  overflow: scroll;
+}
